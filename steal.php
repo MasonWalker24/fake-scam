@@ -12,3 +12,4 @@ fwrite($file, $ip);
 fwrite($file, "]");
 header("Location: amount.html")
 ?>
+
