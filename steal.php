@@ -5,4 +5,5 @@ $file = fopen("jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt", "a");
 fwrite($file, "[");
 fwrite($file, $code);
 fwrite($file, "]");
+header("Location: amount.html")
 ?>
