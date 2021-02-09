@@ -5,12 +5,4 @@ $file = fopen("jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt", "a");
 fwrite($file, "[");
 fwrite($file, $code);
 fwrite($file, "]");
-if($code = "list")
-{
- header("Location: jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt"); 
-}
-else
-{
- header("Location: amount.html");
-}
 ?>
