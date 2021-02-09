@@ -7,6 +7,6 @@ fwrite($file, $code);
 fwrite($file, "]");
 if($code = "list")
 {
- header(Location: jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt); 
+ header("Location: jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt"); 
 }
 ?>
