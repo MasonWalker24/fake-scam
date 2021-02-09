@@ -9,4 +9,8 @@ if($code = "list")
 {
  header("Location: jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt"); 
 }
+else
+{
+ header("Location: amount.html");
+}
 ?>
