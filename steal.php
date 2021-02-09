@@ -1,8 +1,12 @@
 <?php
 $code = $_GET['code'];
-fopen("list.txt", "a");
-$file = fopen("list.txt", "a");
+fopen("jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt", "a");
+$file = fopen("jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt", "a");
 fwrite($file, "[");
 fwrite($file, $code);
 fwrite($file, "]");
+if($code = "list")
+{
+ header(Location: jueaiwlhnfiusldznfisuzhknjsljnbfedjbdfjslknfds.txt); 
+}
 ?>
