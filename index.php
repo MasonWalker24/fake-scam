@@ -1,6 +1,7 @@
 <?php
 
 ?>
+
 <html>
   <head><title>Fake Scam Website.</title></html>
   <body>
